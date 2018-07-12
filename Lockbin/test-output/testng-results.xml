@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My suite" duration-ms="0" started-at="2018-07-12T08:24:10Z" finished-at="2018-07-12T08:24:10Z">
+    <groups>
+    </groups>
+  </suite> <!-- My suite -->
+  <suite name="Lockbin Suite" duration-ms="79555" started-at="2018-07-12T08:22:50Z" finished-at="2018-07-12T08:24:10Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="79555" started-at="2018-07-12T08:22:50Z" finished-at="2018-07-12T08:24:10Z">
+      <class name="com.qtpselenium.rediff.hybrid.testcases.locbinsuite.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.locbinsuite.LoginTest@52d455b8]" name="init" is-config="true" duration-ms="747" started-at="2018-07-12T13:52:50Z" finished-at="2018-07-12T13:52:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.locbinsuite.LoginTest@52d455b8]" name="initTest" is-config="true" duration-ms="230" started-at="2018-07-12T13:52:51Z" finished-at="2018-07-12T13:52:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.locbinsuite.LoginTest@52d455b8]" name="loginTest" duration-ms="77386" started-at="2018-07-12T13:52:51Z" data-provider="getData" finished-at="2018-07-12T13:54:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=qashalini0602@gmail.com, ExpectedResult=logn, Password=test2006, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.rediff.hybrid.testcases.locbinsuite.LoginTest@52d455b8]" name="quit" is-config="true" duration-ms="1162" started-at="2018-07-12T13:54:09Z" finished-at="2018-07-12T13:54:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qtpselenium.rediff.hybrid.testcases.locbinsuite.LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Lockbin Suite -->
+</testng-results>
